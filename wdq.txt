@@ -1,0 +1,46 @@
+王德强
+<!-- Js中sort()方法的用法 -->
+sort()方法返回一个元素已经进行了排序的 Array 对象。 
+arrayobj.sort(sortfunction)  
+参数 
+arrayObj  必选项。任意 Array 对象。  
+sortFunction  可选项。是用来确定元素顺序的函数的名称。如果这个参数被省略， 
+那么元素将按照 ASCII字符顺序进行升序排列。 
+
+ASCII（American Standard Code for Information Interchange，美国标准信息交换代码）是基于拉丁字母的一套电脑编码系统，主要用于显示现代英语和其他西欧语言。
+
+大写字母、小写字母和数字三种字符的ASCII码从小到大的排列顺序:
+数字0-9的ASCII码为：048到057
+大写字母A-Z的ASCII为：065-090
+小写字母a-z的ASCII为：097到122
+
+<!-- Demo1（默认按字母排序）：  -->
+<script language="javascript">  
+  var nameArr = new Array("douguoqiang","hedan","redhacker","panliu888","maxuan","xuejianping","lanse","zhangsan","lisi","wangwu");
+  nameArr.sort();  
+  for (var i = 0; i < nameArr.length; i++) {  
+    document.write(nameArr[i]);  
+  }  
+</script> 
+
+
+<!-- Demo2（数字排序，sort(prama)带参数）： -->
+<script>  
+  var numArr = new Array(12,23,1,4,23,34,2,5);  
+  numArr.sort(function compare(a,b){return a-b;});  
+  for (var i = 0; i<numArr.length; i++) {  
+    document.write(numArr[i] +"<br>");  
+  }  
+</script> //结果为 1,2,4,5,12,23,23,34
+
+
+<script>
+  var numArr = new Array(12,23,1,4,23,34,2,5);  
+  numArr.sort(function compare(a,b){return b-a;});  
+  for (var i = 0; i<numArr.length; i++) {  
+    document.write(numArr[i] +"<br>");  
+  }  
+</script> //结果为 34,23,23,12,5,4,2,1
+
+
+<!-- 参考文献:http://www.jb51.net/article/4168.htm  -->
