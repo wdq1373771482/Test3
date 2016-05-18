@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+
+.t1{background:url(../images/t1.jpg) no-repeat center; width:100%; height:535px; position:relative;}
+.t1 a{height:50px; width:120px; position:absolute; top:10px; left:20px; display:block;}
+.t2{background:url(../images/t2.jpg) no-repeat center; width:100%; height:155px;}
+/*p1*/
+.t3{background:url(../images/t3.jpg) no-repeat center; width:100%; height:140px;position:relative; }
+.t3 a{height:34px; width:130px; position:absolute; top:96px; left:266px; display:block;}
+.t4{background:url(../images/t4.jpg) no-repeat center; width:100%; height:150px;position:relative; }
+.t4 a{height:34px; width:130px; position:absolute; top:96px; left:266px; display:block;}
+.t5{background:url(../images/t5.jpg) no-repeat center; width:100%; height:150px;position:relative; }
+.t5 a{height:34px; width:130px; position:absolute; top:96px; left:266px; display:block;}
+.t6{background:url(../images/t6.jpg) no-repeat center; width:100%; height:111px;}
+.t7{background:url(../images/t7.jpg) no-repeat center; width:100%; height:191px;}
+.t8{background:url(../images/t8.jpg) no-repeat center; width:100%; height:364px;position:relative;}
+.t8 a{height:34px; width:150px; display:block;}
+.t8 .a1{ position:absolute; top:322px; left:100px;}
+.t8 .a2{position:absolute; top:322px; left:390px;}
+.t9{background:url(../images/t6.jpg) no-repeat center; width:100%; height:102px;}
+.t10{background:url(../images/t7.jpg) no-repeat center; width:100%; height:191px;}
+.t11{background:url(../images/t11.jpg) no-repeat center; width:100%; height:136px;}
+.t12{background:url(../images/t12.jpg) no-repeat center; width:100%; height:130px;}
+.t13{background:url(../images/t13.jpg) no-repeat center; width:100%; height:130px;}
+.t14{background:url(../images/t14.jpg) no-repeat center; width:100%; height:106px;}
+.t15{background:url(../images/t15.jpg) no-repeat center; width:100%; height:201px;}
+.t16{background:url(../images/t16.jpg) no-repeat center; width:100%; height:201px;position:relative; }
+.t16 a{height:34px; width:196px; position:absolute; top:170px; left:36px; display:block;}
+.t17{background:url(../images/t17.jpg) no-repeat center; width:100%; height:375px;}
+.t18{background:url(../images/t18.jpg) no-repeat center; width:100%; height:71px;position:relative;}
+.t18 a{height:70px; width:580px; position:absolute; top:0px; left:34px; display:block;}

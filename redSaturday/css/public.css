@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td,div{margin:0;padding:0;}
+body{font-size:0.28em;line-height:1.5;font-family:arial,Microsoft Yahei; background:#fff;}
+table{border-collapse:collapse;border-spacing:0}
+img {vertical-align:middle; border:0}
+h1,h2,h3,h4,h5,h6{font-weight:normal;}
+ul,ol,li{list-style:none;}
+.clear{ clear:both;}
+a{text-decoration:none;outline:0}
+@media screen and (min-width:350px){
+	html{font-size:342%;}
+}
+@media screen and (min-width:410px){
+	html{font-size:400%;}
+}
+@media screen and (min-width:480px){
+	html{font-size:469%;}
+}
+@media screen and (min-width:640px){
+	html{font-size: 625%;}
+}
